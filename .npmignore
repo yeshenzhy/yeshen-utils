@@ -1,0 +1,10 @@
+src
+public
+**/__test__/
+index.html
+env
+pnpm-lock.yaml
+stats.html
+vite.config.test 
+tsconfig.build.json
+demo

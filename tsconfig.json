@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "useDefineForClassFields": true,
+        "noImplicitOverride": true, //如果要重新父类方法，必须使用override关键字
+        "strictPropertyInitialization": false, //声明非严格检查，则类成员可以不通过构造函数赋值；通过（class-transformer）进行转换
+        "experimentalDecorators": true, //启用装饰器
+        "emitDecoratorMetadata": true, //启用元数据
+        "moduleResolution": "node",
+        "strict": true,
+        "noEmit": true,
+        "noLib": false,
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
+        "strictFunctionTypes": false,
+        "jsx": "preserve",
+        "baseUrl": ".",
+        "allowJs": true,
+        "checkJs": true,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "noUnusedParameters": true,
+        "lib": ["dom", "esnext"],
+        "noImplicitAny": false,
+        "skipLibCheck": true,
+        "strictNullChecks": true,
+        "types": ["reflect-metadata"]
+    },
+    "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+}
